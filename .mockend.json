@@ -1,0 +1,19 @@
+{
+  "Post": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "comments": "Comment[]"
+  },
+  "Comment": {
+    "body": "string",
+    "post": "Post"
+  },
+  "Atletas": {
+   "idAtleta": "number",
+   "nombres": "string",
+   "apellidos": "string",
+   "idEquipo": "number"   
+  }
+}
